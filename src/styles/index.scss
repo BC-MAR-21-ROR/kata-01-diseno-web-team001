@@ -1,12 +1,21 @@
 @import './palette.scss';
-@use 'font';
+@import './typography.scss';
 
 .container {
     padding: 30px;
     margin: 0px;
 }
 
+.primary{
+    color: $primary;
+}
+
+.btn-primary{
+    background-color: $primary;
+    color: $pale-cyan;
+    border-radius: 2%;
+}
+
 .prueba {
     color: red;
-
 }
