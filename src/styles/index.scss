@@ -1,0 +1,13 @@
+@import './palette.scss';
+@use 'font';
+
+.container {
+    font-family: $open-sans;
+    padding: 30px;
+    margin: 0px;
+}
+
+.prueba {
+    color: red;
+
+}
