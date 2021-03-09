@@ -1,0 +1,9 @@
+@import './../palette.scss';
+
+@mixin card {
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px 6px ;
+    padding: 10px;
+    margin: 20px 20px 20px 20px;
+
+}
