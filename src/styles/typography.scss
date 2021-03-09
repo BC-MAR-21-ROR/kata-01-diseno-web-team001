@@ -1,6 +1,6 @@
 @import './palette.scss';
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 @mixin demo-typography() {
   * {
@@ -19,24 +19,25 @@
     text-align: justify;
   }
 
-  h1 {
-    font-weight: bold;
-    font-size: 3rem;
-    line-height: 4rem;
-    margin-bottom: 3rem;
-    margin-top: 2.5rem;
-  }
+  // h1 {
+  //   font-weight: bold;
+  //   font-size: 3rem;
+  //   line-height: 4rem;
+  //   margin-bottom: 3rem;
+  //   margin-top: 2.5rem;
+  // }
 
-  h2 {
-    font-size: 2rem;
-    line-height: 3rem;
-    margin-bottom: 2rem;
-  }
+  // h2 {
+  //   font-size: 2rem;
+  //   line-height: 3rem;
+  //   margin-bottom: 2rem;
+  // }
 
   p, b, strong, i, em, mark, del, ins {
     font-size: 1.2rem;
     line-height: 2rem;
     margin-bottom: 0.8rem;
+    font-family: "Open Sans", sans-serif;
   }
 
   a {

@@ -1,22 +1,41 @@
 @import './palette.scss';
 @import './typography.scss';
+@import './components/button';
+@import './components/card';
 
 .container {
-    padding: 10px;
-    margin: 10px;
-    font-family: 'Open Sans', sans-serif;
+    padding: 2rem;
+    margin: 1rem;
 }
 
 .primary{
     color: $primary;
 }
 
-.btn-primary{
+.btn-primary {
+    @include btn-primary;
     background-color: $primary;
-    color: $pale-cyan;
+}
+.btn-secondary {
+    background-color: $pale-cyan;
     border-radius: 2%;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+
+.card {
+    @include card;
 }
 
 .prueba {
     color: red;
 }
+
+// Hero
+
+.logo {
+    width: 125px;
+}
+
+@include demo-typography();
