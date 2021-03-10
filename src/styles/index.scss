@@ -11,10 +11,6 @@
 .primary{
     color: $primary;
 }
-.footer{
-    background-color: $dark-cyan;
-    color: white;
-}
 .btn-primary {
     @include btn-primary;
     background-color: $primary;
@@ -44,15 +40,38 @@
 .logo-footer {
     width: 20px;
     height: 20px;
-    margin-right: 2rem;
-    margin-top: 0,5rem;
+    margin-right: 15px;
+    margin-top: 20px;
 }
 .caja{
     display: flex;
     align-items: top;
+    margin: 10px;
 }
-.caja-p{
-    margin: 0;
-    padding: 0;
+.caja-logo-redes{
+    text-align: center;
+}
+.logo-redes{
+    color: white;
+    background-color: $dark-cyan;
+    border: 1px solid white;
+    border-radius: 100%;
+    
+    width: 10px;
+}
+footer {
+    background-color: $dark-cyan;
+    color: white;
+    padding: 15px;
+    p {
+        margin: 0;
+        margin-top: 15px;
+        padding: 0;
+
+    }
+    i {
+        margin: 10px;
+        padding: 10px 15px 10px 10px;
+    }
 }
 @include demo-typography();
