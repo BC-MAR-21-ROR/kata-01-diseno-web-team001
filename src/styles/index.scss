@@ -11,7 +11,10 @@
 .primary{
     color: $primary;
 }
-
+.footer{
+    background-color: $dark-cyan;
+    color: white;
+}
 .btn-primary {
     @include btn-primary;
     background-color: $primary;
@@ -37,5 +40,19 @@
 .logo {
     width: 125px;
 }
-
+//Footer
+.logo-footer {
+    width: 20px;
+    height: 20px;
+    margin-right: 2rem;
+    margin-top: 0,5rem;
+}
+.caja{
+    display: flex;
+    align-items: top;
+}
+.caja-p{
+    margin: 0;
+    padding: 0;
+}
 @include demo-typography();
