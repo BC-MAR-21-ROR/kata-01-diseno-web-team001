@@ -4,8 +4,8 @@
 @import './components/card';
 
 .container {
-    padding: 2rem;
-    margin: 1rem;
+    padding: .2rem;
+    margin: .2rem;
 }
 
 .primary{
@@ -24,8 +24,24 @@
     border: none;
 }
 
+// Content/Cards
+
 .card {
     @include card;
+}
+
+.card-title{
+    @include card-title
+}
+
+.card-body{
+    @include card-body;
+    color: $grayish-blue
+}
+
+.card-img{
+    @include card-img;
+    margin: 30px 10px 20px 10px ;
 }
 
 .prueba {

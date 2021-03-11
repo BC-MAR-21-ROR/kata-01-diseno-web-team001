@@ -1,8 +1,58 @@
 
+@mixin text-format {
+    text-align: center;
+}
+
 @mixin card {
     border-radius: 1rem;
-    box-shadow: 1px 1px 5px 6px ;
+    box-shadow: 0px 2px 6px 6px lightgrey;
     padding: 10px;
-    margin: 20px 20px 20px 20px;
+    margin: 20px 20px 35px 20px;
+    @include text-format();
+}
 
+@mixin card-title {
+    @include text-format();
+    margin: 20px;
+    font-weight: 700;
+}
+
+@mixin card-body {
+    @include text-format();
+    margin: 10px;
+    font-weight: 400;
+}
+
+@mixin card-img {
+    width: 220px;
+    height: 200px;
+    padding-bottom: 15px;
+}
+
+@media (min-width: 1000px){
+    @mixin card {
+        border-radius: 1rem;
+        box-shadow: 0px 2px 6px 6px lightgrey;
+        padding: 10px;
+        margin: 20px 20px 35px 20px;
+    }
+    
+    @mixin card-title {
+        text-align: left;
+        margin: 20px;
+        font-weight: 700;
+    }
+    
+    @mixin card-body {
+        text-align: left;
+        margin: 10px;
+        font-weight: 400;
+
+    }    
+
+    @mixin card-img {
+        width: 220px;
+        height: 200px;
+        padding-bottom: 15px;
+    }
 }
