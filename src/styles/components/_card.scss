@@ -27,32 +27,41 @@
     width: 220px;
     height: 200px;
     padding-bottom: 15px;
+    margin: 30px 10px 20px 10px ;
+
 }
 
-@media (min-width: 700px){
-    @mixin card {
-        border-radius: 1rem;
-        box-shadow: 0px 2px 6px 6px lightgrey;
-        padding: 10px;
-        margin: 20px 20px 35px 20px;
-    }
-    
-    @mixin card-title {
-        text-align: left;
-        margin: 20px;
-        font-weight: 700;
-    }
-    
-    @mixin card-body {
-        text-align: left;
-        margin: 10px;
-        font-weight: 400;
+@mixin card-d{
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 6px 6px lightgrey;
+    padding: 20px;
+    margin: 20px 20px 35px 20px;
+}
 
-    }    
+@mixin card-title-d {
+    margin: 20px;
+    font-weight: 700;
+    text-align: left;
+}
 
-    @mixin card-img {
-        width: 220px;
-        height: 200px;
-        padding-bottom: 15px;
-    }
+@mixin card-body-d {
+    margin: 20px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+@mixin card-img-d {
+    width: 220px;
+    height: 200px;
+    padding-bottom: 15px;
+    margin: 30px 10px 20px 10px ;
+
+}
+
+@mixin row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
 }

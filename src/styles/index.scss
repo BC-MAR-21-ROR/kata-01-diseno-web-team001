@@ -8,6 +8,7 @@
     margin: .2rem;
 }
 
+// Mobile styles
 .primary{
     color: $primary;
 }
@@ -55,3 +56,30 @@
 }
 
 @include demo-typography();
+
+// Desktop styles
+
+@media (min-width: 700px){
+    
+    .card {
+        @include card-d;
+    }
+
+    .card-title{
+        @include card-title-d;
+    }
+
+    .card-body{
+        @include card-body-d;
+        color: $grayish-blue
+    }
+
+    .card-img{
+        @include card-img-d;
+    }
+
+    .row-reverse{
+        @include row-reverse;
+    }
+
+}

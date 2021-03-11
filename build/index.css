@@ -53,6 +53,7 @@
   height: 200px;
   padding-bottom: 15px;
   margin: 30px 10px 20px 10px;
+  margin: 30px 10px 20px 10px;
 }
 
 .prueba {
@@ -123,6 +124,42 @@ a {
   font-size: 1rem;
   line-height: 2rem;
   margin-bottom: 0.6rem;
+}
+
+@media (min-width: 700px) {
+  .card {
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 6px 6px lightgrey;
+    padding: 20px;
+    margin: 20px 20px 35px 20px;
+  }
+
+  .card-title {
+    margin: 20px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .card-body {
+    margin: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #808d99;
+  }
+
+  .card-img {
+    width: 220px;
+    height: 200px;
+    padding-bottom: 15px;
+    margin: 30px 10px 20px 10px;
+  }
+
+  .row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
