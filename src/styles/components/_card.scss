@@ -1,39 +1,28 @@
 
-@mixin text-format {
+@mixin card {
+    border-radius: 1rem;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,0.47);
     text-align: center;
 }
 
-@mixin card {
-    border-radius: 1rem;
-    box-shadow: 0px 2px 6px 6px lightgrey;
-    padding: 10px;
-    margin: 20px 20px 35px 20px;
-    @include text-format();
-}
-
 @mixin card-title {
-    @include text-format();
-    margin: 20px;
-    font-weight: 700;
+    text-align: center;
 }
 
 @mixin card-body {
-    @include text-format();
-    margin: 10px;
-    font-weight: 400;
+    text-align: center;
+
 }
 
 @mixin card-img {
     width: 220px;
     height: 200px;
-    padding-bottom: 15px;
-    margin: 30px 10px 20px 10px ;
 
 }
 
 @mixin card-d{
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
     border-radius: 1rem;
     box-shadow: 0px 2px 6px 6px lightgrey;
     padding: 20px;
@@ -42,13 +31,11 @@
 
 @mixin card-title-d {
     margin: 20px;
-    font-weight: 700;
     text-align: left;
 }
 
 @mixin card-body-d {
     margin: 20px;
-    font-weight: 400;
     text-align: left;
 
 }
@@ -58,10 +45,4 @@
     height: 200px;
     padding-bottom: 15px;
     margin: 30px 10px 20px 10px ;
-
-}
-
-@mixin row-reverse {
-    display: flex;
-    flex-direction: row-reverse;
 }

@@ -1,24 +1,23 @@
+@use './components/button' as *;
 @import  './palette.scss';
 @import './components/button';
-@use './components//button' as *;
+
+// Hero
 
 .title {
-    padding-top: 3rem;
-    padding-left: 2.3rem;
-    padding-right: 2.3rem;
+    // padding-top: 3rem;
+    // padding-left: 2.3rem;
+    // padding-right: 2.3rem;
     bottom: 0%;
 }
 .subcontent-hero {
-    padding: 1rem 2rem;
+    white-space: normal;
 }
 
-.space {
-
-}
-// Hero
 
 .logo {
     width: 125px;
+
 }
 
 .mockupImg {
@@ -26,27 +25,23 @@
     display: block;
     max-width: 100%;
 }
-.imageContainer {
-    padding: 1.5rem;
-}
 
 .btn-primary {
     @include Button;
     background-color: $primary;
     color: $pale-cyan;
-    width: fit-content;
-    font-weight: bold;
+    width: 100%;
+    padding: 16px 32px;
 }
 
 .hero{
-    padding: 2em 0%;
     background: url('../../images/bg-hero-mobile.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: $pale-cyan;
 }
 
-.navbar {
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
+// .navbar {
+//     margin-left: 2rem;
+//     margin-right: 2rem;
+// }
