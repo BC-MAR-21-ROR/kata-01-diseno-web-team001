@@ -6,7 +6,7 @@
   * {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
-    font-weight: 400 700;
+    font-weight: 400;
   }
 
    h1, h2, h3, h4, h5 {
@@ -39,7 +39,9 @@
     margin-bottom: 0.8rem;
     font-family: "Open Sans", sans-serif;
   }
-
+  button{
+    font-weight: 700;
+  }
   a {
     font-size: 1.2rem;
     line-height: 2rem;

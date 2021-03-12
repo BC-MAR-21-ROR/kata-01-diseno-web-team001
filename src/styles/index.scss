@@ -1,27 +1,39 @@
 @import './palette.scss';
 @import './typography.scss';
+@import './hero.scss';
 @import './components/button';
 @import './components/card';
 
+html, body {
+  /* Take width and height of content and use flexbox layout */
+  /* By default all flex items will stretch for cross axis */
+//   display: inline-flex;
+  /* Align all blocks in columns */
+  /* All items will stretch in width */
+//   flex-direction: column;
+  /* Minimum occupy 100% of screen width */
+  min-width: 100vw;
+  /* Minimum occupy 100% of screen height */
+  /* To get rid of horizontal scrollbar can be changed to smaller value */
+  /* e.g. min-height: calc(100vh - 20px) */
+  /* Replace min-height with height to also work in IE */
+  min-height: 100vh;
+  margin: 0;
+//   overflow-x: hidden;
+}
 .container {
-    padding: 2rem;
-    margin: 1rem;
 }
 
 .primary{
     color: $primary;
 }
 
-.btn-primary {
-    @include btn-primary;
-    background-color: $primary;
-}
 .btn-secondary {
-    background-color: $pale-cyan;
-    border-radius: 2%;
-    text-align: center;
-    text-decoration: none;
-    border: none;
+    @include Button;
+    background-color: white;
+    color: $dark-cyan;
+    padding: 8px 16px;
+    // font-weight: bold;
 }
 
 .card {
@@ -32,10 +44,5 @@
     color: red;
 }
 
-// Hero
-
-.logo {
-    width: 125px;
-}
-
 @include demo-typography();
+
