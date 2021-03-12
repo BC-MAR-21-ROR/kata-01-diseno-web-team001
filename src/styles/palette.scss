@@ -9,7 +9,6 @@ $primary-50: transparentize($primary, .5);
 $pale-cyan: hsl(193, 100%, 96%);
 $dark-cyan: hsl(192, 100%, 9%);
 
-$grayish-blue: hsl(208, 11%, 55%);
 
 // $amber: #FFC107;
 // $amber-75: transparentize($amber, .25);
@@ -27,3 +26,5 @@ $dark-grey-50: transparentize($dark-grey, .5);
 $light-grey: #dedede;
 $light-grey-75: transparentize($light-grey, .25);
 $light-grey-50: transparentize($light-grey, .5);
+
+$grayish-blue: hsl(208, 11%, 55%);
