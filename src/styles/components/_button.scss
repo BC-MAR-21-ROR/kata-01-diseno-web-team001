@@ -1,13 +1,17 @@
+@use  '../palette.scss' as Colors;
 
-@mixin btn-primary{
-    padding-left: 2em;
+// $button-sizes: ("primary": Colors.$primary, "secondary": $pale-cyan);
+
+@mixin Button{
     text-align: center;
-    border-radius: 2rem;
-    padding: 15px 32px;
+    border-radius: 2.5rem;
+    padding: 8px 16px;
     text-decoration: none;
+    border: none;
+    box-shadow: none;
     display: inline-block;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
-@mixin btn-secondary {
-    
-}
