@@ -64,6 +64,81 @@
   width: 125px;
 }
 
+.logo-footer {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.caja {
+  display: flex;
+  align-items: top;
+  margin: 10px;
+}
+
+.caja-logo-redes {
+  text-align: center;
+}
+
+.logo-redes {
+  color: white;
+  background-color: #00252e;
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 10px;
+}
+
+footer {
+  background-color: #00252e;
+  color: white;
+  padding: 15px;
+}
+footer p {
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+}
+footer i {
+  margin: 10px;
+  padding: 10px 15px 10px 10px;
+}
+
+@media (min-width: 700px) {
+  .card {
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 6px 6px lightgrey;
+    padding: 20px;
+    margin: 20px 20px 35px 20px;
+  }
+
+  .card-title {
+    margin: 20px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .card-body {
+    margin: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #808d99;
+  }
+
+  .card-img {
+    width: 220px;
+    height: 200px;
+    padding-bottom: 15px;
+    margin: 30px 10px 20px 10px;
+  }
+
+  .row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
 * {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -124,42 +199,6 @@ a {
   font-size: 1rem;
   line-height: 2rem;
   margin-bottom: 0.6rem;
-}
-
-@media (min-width: 700px) {
-  .card {
-    display: flex;
-    align-items: center;
-    border-radius: 1rem;
-    box-shadow: 0px 2px 6px 6px lightgrey;
-    padding: 20px;
-    margin: 20px 20px 35px 20px;
-  }
-
-  .card-title {
-    margin: 20px;
-    font-weight: 700;
-    text-align: left;
-  }
-
-  .card-body {
-    margin: 20px;
-    font-weight: 400;
-    text-align: left;
-    color: #808d99;
-  }
-
-  .card-img {
-    width: 220px;
-    height: 200px;
-    padding-bottom: 15px;
-    margin: 30px 10px 20px 10px;
-  }
-
-  .row-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-  }
 }
 
 /*# sourceMappingURL=index.css.map */
