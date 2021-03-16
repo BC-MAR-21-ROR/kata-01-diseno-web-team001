@@ -1,0 +1,14 @@
+{
+  "name": "kata-01-diseno-web-team001",
+  "version": "1.0.0",
+  "description": "team 01 kata solution approach",
+  "main": "index.html",
+  "repository": "https://github.com/BC-MAR-21-ROR/kata-01-diseno-web-team001.git",
+  "license": "MIT",
+  "scripts": {
+    "build": "sass --style=compressed src/styles/index.scss build/styles/index.min.css"
+  },
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
+}
